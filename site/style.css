@@ -1,0 +1,20 @@
+header { 
+    min-height: 6rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: clamp(16px, 5vw, 50px);
+}
+
+ul {
+    flex-direction: column;
+}
+
+.grille {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
