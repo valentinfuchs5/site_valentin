@@ -1,20 +1,24 @@
-header { 
-    min-height: 6rem;
-    text-align: center;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    font-size: clamp(16px, 5vw, 50px);
+.images_plein {
+    margin: 0;
+    width: 100%;
 }
 
-ul {
-    flex-direction: column;
+.menu {
+    display: block;
+    min-width: 120px;
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    color: black;
+    float: right;
+    text-decoration: none;
 }
 
-.grille {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
+.menu a {
+    text-decoration: none;
+    color: black;
 }
