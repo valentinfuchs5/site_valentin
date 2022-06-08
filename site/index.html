@@ -11,17 +11,75 @@
 
 
 <body>
-    <ul class="menu">
-        <a href="index.html">Accueil</a>
-        <a href="#">A propos</a>
-        <a href="#">Contact</a>
-    </ul>
-    <img class="images_plein" src="/images/homepage.jpg" alt="personne faisant de la réalité virtuelle">
-    <h1>Voyage dans le monde du gaming</h1>
+    <nav>
+        <ul class="menu">
+            <a href="#accueil">Accueil</a>
+            <a href="#a propos">A propos</a>
+            <a href="#contact">Contact</a>
+        </ul>
+    </nav>
+
+    <main>
+        <a name="accueil"></a>
+        <section>
+            <img class="images_plein" src="/images/homepage.jpg" alt="personne faisant de la réalité virtuelle">
+            <div id="bouton">
+                <button>Trouves ta destination →</button>
+            </div>
+
+            <h1>Voyages dans le monde du gaming</h1>
+
+        </section>
+
+        <section>
+            <a name="a propos"></a>
+            <div class="box" id="trois_images">
+                <div>
+
+                    <img src="/images/01.jpg" alt="">
+                    <p>Curabitur nunc odio, fermentum sed nisl sed, pellentesque vestibulum enim. Maecenas vitae nunc
+                        eget
+                        felis
+                        rhoncus porttitor. Curabitur sed eleifend augue.</p>
+                </div>
+                <div>
+                    <img src="/images/02.jpg" alt="">
+                    <p>Aenean dictum imperdiet varius. Nunc pretium blandit vehicula. Fusce gravida sed neque vitae
+                        semper.
+                        Phasellus dignissim posuere dolor ac eleifend. Donec volutpat lacus in lectus commodo
+                        sollicitudin.
+                        Pellentesque mollis ac leo vitae laoreet.</p>
+                </div>
+                <div>
+                    <img src="/images/03.jpg" alt="">
+                    <p>Etiam urna ante, efficitur vel tortor in, hendrerit laoreet ex. Maecenas sed mi varius, rhoncus
+                        arcu
+                        vitae,
+                        eleifend purus. Etiam porta ipsum sed mauris lobortis, eget semper tellus lacinia.</p>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a name="contact"></a>
+        <section class="box" id="footermenu">
+            <ul class="menu">
+                <a href="#accueil">Accueil</a>
+                <a href="#a propos">A propos</a>
+                <a href="#contact">Contact</a>
+            </ul>
+        </section>
+        <section class="box" id="footer">
+            <p> Route du Café 8, <br>
+                1450 Ste-croix
+            </p>
+            <p>travelgaming@gmail.com</p>
+            <p>021 678 98 34</p>
+        </section>
+
+    </footer>
+
 </body>
-
-<footer>
-
-</footer>
 
 </html>
