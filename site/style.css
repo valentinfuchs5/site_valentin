@@ -10,12 +10,18 @@ body {
 }
 
 .images_plein {
-    margin: 0rem;
-    margin-top: 0.8vw;
+    margin-top: -57rem;
     width: 100vw;
     position: relative;
     top: 0rem;
-    z-index: 1;
+    margin-left: none;
+    z-index: -1;
+}
+
+.logo {
+    width: 10vw;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 .menu {
@@ -37,7 +43,7 @@ body {
 
 h1 {
     position: relative;
-    margin-top: 5vw;
+    margin-top: 3rem;
     text-align: center;
     color: white;
     font-size: 1.5rem;
@@ -69,6 +75,7 @@ a:hover,
 button:hover {
     background-size: 0 3px, 100% 3px;
 }
+
 
 .box {
     display: flex;
@@ -138,17 +145,19 @@ p {
 
 button {
     margin-top: 5vw;
-    background-color: black;
+    background-color: none;
     color: white;
     border-radius: 2rem;
     height: 3.5rem;
     width: 20rem;
     font-size: 1.5rem;
-    border-style: solid;
-    border-color: #234567;
-    border-width: medium;
-    margin-left: auto;
+    border-style: none;
+    /*border-color: #234567;
+    border-width: medium;*/
+    /*margin-left: auto;
     margin-right: auto;
+    z-index: 2;*/
+    margin-left: 40%;
 }
 
 button:hover {
@@ -160,6 +169,11 @@ button:hover {
 
 }
 
-#bouton {
+.copyright {
     display: flex;
+    justify-content: center;
+}
+
+#bouton {
+    margin-top: 33rem;
 }
